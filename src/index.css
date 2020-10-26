@@ -5,16 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+  }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+
 }
 
 nav {
-  background: #cfd8dc;
-  padding: 10px;
+  background-color: #3d0c02;
+
+  padding: 15px;
 }
 
 nav a {
