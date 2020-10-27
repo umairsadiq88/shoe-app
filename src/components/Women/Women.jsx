@@ -1,13 +1,13 @@
 import React from 'react'
 import { Outlet} from 'react-router-dom';
 
-const Launch = () => {
+const Women = () => {
     return (
         <div>
-            <h1>This is Launch Page</h1>
+            <h1>This is Women Category</h1>
             <Outlet />
         </div>
     )
 }
 
-export default Launch;
+export default Women;

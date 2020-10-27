@@ -1,13 +1,13 @@
 import React from 'react'
-import shoes from '../../Shoesdata';
 import {Link} from 'react-router-dom';
+import menShoes from './MenShoesData';
 
-const LaunchIndex = () => {
+const MenIndex = () => {
     return (
        <ul>
-           {Object.entries(shoes).map(([slug, {name, img}]) => (
+           {Object.entries(menShoes).map(([slug, {name, img}]) => (
                <li key={slug}>
-                   <Link to={`/launch/${slug}`}>
+                   <Link to={`/Men/${slug}`}>
                        <h2>{name}</h2>
                        <img src={img} alt={name}/>
                    </Link>
@@ -18,4 +18,4 @@ const LaunchIndex = () => {
 }
 
 
-export default LaunchIndex;
+export default MenIndex;

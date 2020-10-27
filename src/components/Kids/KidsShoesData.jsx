@@ -1,4 +1,4 @@
-const shoes = {
+const kidsShoes = {
     "air-jordan-3-valor-blue": {
       name: "VALOUR BLUE",
       img:
@@ -9,13 +9,18 @@ const shoes = {
       img:
         "https://secure-images.nike.com/is/image/DotCom/CV3042_001_A_PREM?$SNKRS_COVER_WD$&align=0,1"
     },
-    "air-jordan-1-zoom-racer-blue": {
-      name: "RACER BLUE",
+    "Girls Flower Sandals": {
+      name: "GIRLS FLOWER SANDALS",
       img:
-        "https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1"
+        "https://cdn.shopify.com/s/files/1/0262/5804/7069/products/1_2c1e17f8-6588-408f-922d-80bdb088e507.jpg?v=1601271700"
+    },
+    "Buckled Girls Pumps": {
+      name: "BUCKLED GIRLS PUMPS",
+      img:
+        "https://cdn.shopify.com/s/files/1/0262/5804/7069/products/IMG_0589copy_06bef632-639a-4de7-85e1-36b802475ba5.jpg?v=1601271350"
     }
   };
 
-export default shoes;
+export default kidsShoes;
   
   // {fetch('https://fakestoreapi.com/products').then(res=>res.json()).then(json=>console.log(json))}

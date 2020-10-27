@@ -1,16 +1,16 @@
 import React from 'react'
-import shoes from '../../Shoesdata'
+import womenShoes from './WomenShoesData';
 import { useParams } from 'react-router-dom'
 
-const LaunchShoe = () => {
+const WomenShoe = () => {
     const { slug } = useParams();
-    const shoe = shoes[slug];
+    const womenShoe = womenShoes[slug];
 
-    if (!shoe) {
+    if (!womenShoe) {
         return <h2>Not Found!</h2>
     }
 
-    const { name, img } = shoe;
+    const { name, img } = womenShoe;
     return (
         <div>
             <h2>{name}</h2>
@@ -19,4 +19,4 @@ const LaunchShoe = () => {
     )
 }
 
-export default LaunchShoe;
+export default WomenShoe;
