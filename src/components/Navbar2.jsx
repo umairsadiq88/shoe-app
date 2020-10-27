@@ -1,6 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
+
 import Home from './Home'
 
 import Men from './Men/Men'
@@ -17,18 +18,21 @@ import KidsShoe from './Kids/KidsShoe'
 
 import NotFound from '../components/NotFound'
 
+
 const Navbar2 = () => {
     return (
+
         <Router>
+         
         <nav>
          <Link to="/">Home</Link>
          <Link to="/Men">Men</Link>
          <Link to="/Women">Women</Link>
          <Link to="/Kids">Kids</Link>
        </nav>
- 
+       
      <Routes>
- 
+    
        <Route path="/" element={<Home />} />
        
        <Route path="Men" element={<Men />}>
@@ -47,8 +51,12 @@ const Navbar2 = () => {
        </Route>
 
        <Route path="*" element={<NotFound />} />
+       
      </Routes>
+   
    </Router>
+  
+   
     )
 }
 
