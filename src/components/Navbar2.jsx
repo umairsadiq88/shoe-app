@@ -4,17 +4,9 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 import Home from './Home'
 
-import Men from './Men/Men'
-import MenIndex from './Men/MenIndex'
-import MenShoe from './Men/MenShoe'
-
-import Women from './Women/Women'
-import WomenIndex from './Women/WomenIndex'
-import WomenShoe from './Women/WomenShoe'
-
-import Kids from './Kids/Kids'
-import KidsIndex from './Kids/KidsIndex'
-import KidsShoe from './Kids/KidsShoe'
+import Men from './Men/Men';
+import Women from './Women/Women';
+import Kids from './Kids/Kids';
 
 import NotFound from '../components/NotFound'
 
